@@ -1,0 +1,13 @@
+#saida{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    margin:auto;
+    width: 500px;
+}
+
+main{
+    margin: auto;
+    display:block;
+    width: 500px;
+    background-color: aliceblue;
+}

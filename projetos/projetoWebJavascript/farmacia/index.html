@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Farmácia</title>
+</head>
+
+<body>
+
+    <main>
+        <h1>Farmácia</h1>
+        <div>
+            <label>
+                Descrição:
+                <input type="text" name="descricao" id="descricao" placeholder="Insira a descrição do produto">
+            </label>
+        </div>
+        <div>
+            <label>
+                Preço:
+                <input type="number" name="valorProduto" id="valorProduto" placeholder="Insira o valor do produto">
+            </label>
+        </div>
+
+        <button onclick="mostrarPromocao()">Mostrar Promocao</button>
+        <div id="saida"></div>
+    </main>
+
+</body>
+
+</html>

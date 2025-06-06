@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Lan House</title>
+</head>
+
+<body>
+    <main>
+        <h1>Lan House</h1>
+        <div>
+            <label>
+                Valor por 15 min de uso R$:
+                <input type="number" id="valorPorMin">
+            </label>
+        </div>
+        <div>
+            <label>
+                Tempo de Uso do Cliente
+                <input type="number" id="qntMin">
+            </label>
+        </div>
+        <button onclick="exibirTotal()">Mostrar total a pagar</button>
+        <div id="saida"></div>
+    </main>
+</body>
+
+</html>

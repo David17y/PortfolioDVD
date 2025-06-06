@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #8de3a3;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .site-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: linear-gradient(180deg, #8de3a3 0%, #4caf50 100%);
+    color: #fff;
+    margin-bottom: 0;
+  }
+  
+  .site-header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .site-header .tagline {
+    font-size: 1rem;
+    opacity: 0.9;
+  }
+  
+  .main-nav ul {
+    display: inline-flex;
+    gap: 2rem;
+    list-style: none;
+    margin-top: 1rem;
+  }
+  
+  .main-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto; 
+    padding: 1rem;
+  }
+  
+  .content-box {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .content-box h2 {
+    color: #4caf50;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content-box h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin: 1.5rem 0 0.75rem;
+  }
+  
+  .content-box p {
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .media {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .media img,
+  .media video {
+    max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .caption {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+  
+  .extra-box {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ccc;
+  }
+  
+  .extra-box h3 {
+    color: #4caf50;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+  }
+  
+  .extra-box ul {
+    list-style: disc inside;
+    margin-bottom: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .btn:hover {
+    opacity: 0.9;
+  }
+  
+  .site-footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #fff;
+    background: #4caf50;
+ 
+  }
+  

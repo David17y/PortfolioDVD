@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio de David Lima dos Anjos</title>
+
+  <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <a href="#home">David Lima dos Anjos</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <header id="home" class="hero-section">
+    <div class="container">
+      <h1>Olá, eu sou <span>David Lima dos Anjos</span></h1>
+      <p>Desenvolvedor Front-End | JavaScript | HTML5 | CSS3</p>
+      <a href="#projects" class="btn">Meus Projetos</a>
+    </div>
+  </header>
+
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <div class="about-content">
+        <div class="about-image">
+
+          <img src="img/pneumonia aquática.jpg" alt="Foto de Perfil" />
+        </div>
+        <div class="about-text">
+          <p>
+            Olá! Meu nome é <strong>David Lima dos Anjos</strong> estou matriculado no curso Técnico em Desenvolvimento
+            de Sistemas.
+          </p>
+          <p>
+            Além de estudar e praticar, já desenvolvi alguns projetos em aula, como esse site de portfólio. No futuro
+            pretendo cursar Ciência da Computação e me especializar em Machine Learning(ML).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2>Projetos</h2>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <img src="img/android.png" alt="Screenshot Projeto 1" />
+          <h3>Projeto Site Android</h3>
+          <p>
+            Site de receitas desenvolvido durante as aulas, utilizando HTML5, CSS3 e JavaScript puro. Inclui filtragem
+            de receitas por categoria e layout responsivo.
+          </p>
+          <a href="projetos/projetoAndroid/index.html" target="_blank" class="btn-sm">Ver</a>
+        </div>
+
+        <div class="project-card">
+          <img src="img/js.jpeg" alt="Screenshot Projeto 1" />
+          <h3>Projeto Web Farmácia</h3>
+          <p>
+            Site de receitas desenvolvido durante as aulas, utilizando HTML5, CSS3 e JavaScript puro. Inclui filtragem
+            de receitas por categoria e layout responsivo.
+          </p>
+          <a href="projetos/projetoWebJavascript/farmacia/index.html" target="_blank" class="btn-sm">Ver</a>
+        </div>
+
+        <div class="project-card">
+          <img src="img/js.jpeg" alt="Screenshot Projeto 1" />
+          <h3>Projeto Web superMercado</h3>
+          <p>
+            Site de receitas desenvolvido durante as aulas, utilizando HTML5, CSS3 e JavaScript puro. Inclui filtragem
+            de receitas por categoria e layout responsivo.
+          </p>
+          <a href="projetos/projetoWebJavascript/superMercado/index.html" target="_blank" class="btn-sm">Ver</a>
+        </div>
+
+        <div class="project-card">
+          <img src="img/js.jpeg" alt="Screenshot Projeto 1" />
+          <h3>Projeto Web Lan House</h3>
+          <p>
+            Site de receitas desenvolvido durante as aulas, utilizando HTML5, CSS3 e JavaScript puro. Inclui filtragem
+            de receitas por categoria e layout responsivo.
+          </p>
+          <a href="projetos/projetoWebJavascript/lanHouse/index.html" target="_blank" class="btn-sm">Ver</a>
+        </div>
+
+
+        <div class="project-card">
+          <img src="img/peso.jpeg" alt="Screenshot Projeto 2" />
+          <h3>Projeto Calculo IMC</h3>
+          <p>
+            Aplicativo de lista de tarefas (To-Do List) com persistência no Local Storage do navegador. Permite criar,
+            editar e remover tarefas, além de marcar como concluídas.
+          </p>
+          <a href="projetos/calcularIMC/index.html" target="_blank" class="btn-sm">Ver</a>
+        </div>
+
+        <div class="project-card">
+          <img src="img/calculos-trabalhistas.jpeg" alt="Screenshot Projeto 1" />
+          <h3>Projeto Calculo Trabalhista</h3>
+          <p>
+            Site de receitas desenvolvido durante as aulas, utilizando HTML5, CSS3 e JavaScript puro. Inclui filtragem
+            de receitas por categoria e layout responsivo.
+          </p>
+          <a href="projetos/calculoTrabalhista/index.html" target="_blank" class="btn-sm">Ver</a>
+        </div>
+
+        <div class="project-card">
+          <img src="img/pedagio.jpeg" alt="Screenshot Projeto 2" />
+          <h3>Projeto Controle Pedágio</h3>
+          <p>
+            Aplicativo de lista de tarefas (To-Do List) com persistência no Local Storage do navegador. Permite criar,
+            editar e remover tarefas, além de marcar como concluídas.
+          </p>
+          <a href="projetos/controle_pedagio/index.html" target="_blank" class="btn-sm">Ver</a>
+        </div>
+
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Quer conversar sobre um projeto ou oportunidade? Preencha o formulário abaixo ou me chame no WhatsApp!</p>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" placeholder="Seu nome completo" required />
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Mensagem:</label>
+          <textarea id="message" name="message" rows="4" placeholder="Digite sua mensagem..." required></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+
+      <div id="confirmation" class="confirmation hidden">
+        <h3>Obrigado!</h3>
+        <p>Sua mensagem foi enviada com sucesso. A seguir um resumo dos seus dados:</p>
+        <ul>
+          <li><strong>Nome:</strong> <span id="confirmName"></span></li>
+          <li><strong>E-mail:</strong> <span id="confirmEmail"></span></li>
+          <li><strong>Mensagem:</strong> <span id="confirmMessage"></span></li>
+        </ul>
+        <p>Logo entrarei em contato!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 David Lima dos Anjos. Todos os direitos reservados.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/seu-perfil" target="_blank">LinkedIn</a>
+        <a href="https://github.com/seu-usuario" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

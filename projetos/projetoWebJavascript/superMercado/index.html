@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Supermercado</title>
+</head>
+<body>
+    <main>
+        <h1>Supermercado JS</h1>
+        <div>
+            <label>
+                Produto: 
+                <input type="text" id="nomeProduto" placeholder="Insira o nome do produto">
+            </label>
+        </div>
+        <div>
+            <label>
+                Preço:
+                <input type="number" id="precoUnit" placeholder="Insira o preço unitário do produto">
+            </label>
+        </div>
+        <button onclick="exibirPromo()">Mostrar promoção</button>
+        <div id="saida"></div>
+    </main>
+</body>
+</html>

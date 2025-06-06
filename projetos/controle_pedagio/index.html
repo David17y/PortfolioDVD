@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Pedágio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Pedágio</h1>
+
+    <label>Placa do Veículo: <input type="text" id="placa"></label>
+    <label>Hora Entrada (hh:mm): <input type="time" id="horaEntrada"></label>
+    <label>Hora Saída (hh:mm): <input type="time" id="horaSaida"></label>
+    <button onclick="registrarVeiculo()">Registrar Veículo</button>
+    <button onclick="fecharCaixa()">Fechar Caixa</button>
+
+    <div id="tickets"></div>
+    <div id="relatorio"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
